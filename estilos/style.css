@@ -1,0 +1,68 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f0f4f8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 290px;
+}
+
+.card-perfil {
+ background-color: rgb(252, 252, 252);
+ width: 320px;
+ border-radius: 16px;
+ padding: 32px 24px;
+ text-align: center;
+ box-shadow: 0 4px 12px rgb(119, 119, 119);
+}
+.avatar {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  margin-bottom: 16px;
+  padding: 4px;
+  background-color:rgb(184, 160, 160);
+  }
+
+.profissao {
+  margin-top: 3px;
+}
+.badge {
+  font-size: 12px;
+  padding: 4px 10px;
+  border-radius: 15px;
+}
+
+.badge-html{
+  background-color: blue;
+  color: rgb(255, 255, 255);
+}
+.badge-css{
+  background-color: rgb(255, 145, 0);
+  color: rgb(255, 255, 255);
+}
+.badge-git{
+  background-color: rgb(255, 0, 0);
+  color: rgb(255, 255, 255);
+}
+.biografia{
+  margin-top: 10px;
+}
+.destaque{
+  color: blue;
+  text-decoration: underline;
+}
+.badge-status{
+  color: goldenrod;
+  margin-top: 113px;
+  background-color: green;
+  border-radius: 16px;
+  padding: 1px 16px;
+  
+}
